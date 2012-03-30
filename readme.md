@@ -75,7 +75,7 @@ to the broker maintaining a connection to it internally so as a final
 touch I also add an x-expires argument to the queue definition to ensure
 that the queue will eventually go away.
 
-[example.coffee](example.coffee) is the result of this exercise in its entirety. 
+[example.coffee](rabbitmq-scheduled-delivery/example.coffee) is the result of this exercise in its entirety. 
 
 
 ## Running It
