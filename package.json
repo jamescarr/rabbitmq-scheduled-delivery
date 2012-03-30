@@ -1,0 +1,19 @@
+{
+  "author": "",
+  "name": "rabbitmq-deadletter",
+  "version": "0.0.0",
+  "repository": {
+    "url": ""
+  },
+  "engines": {
+    "node": "~0.6.6"
+  },
+  "dependencies": {
+    "amqp":"0.1.2"
+  },
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "scripts":{
+    "preinstall":"npm install https://github.com/jamescarr/node-amqp/tarball/no-error-patch"
+  }
+}
