@@ -80,9 +80,15 @@ that the queue will eventually go away.
 
 ## Running It
 
- * Clone this repo
- * run npm install from the project dir
- * run coffee example
+You'll need node.js (0.6.12 is what I am running) and coffee-script
+installed. You'll also need rabbitmq running with default settings.
+
+```bash
+$ git clone git://github.com/jamescarr/rabbitmq-scheduled-delivery.git
+$ cd rabbitmq-scheduled-delivery
+$ npm install && coffee example
+
+```
 
 ## Notes
 The current version of node-amqp has a parse bug when handling some
