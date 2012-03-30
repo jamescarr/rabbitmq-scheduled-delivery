@@ -1,5 +1,5 @@
 # RabbitMQ Scheduled Message Delivery
-Earlier this month I gave a presentation at ComoRichWeb on RabbitMQ and
+Earlier this month I gave a presentation at [ComoRichWeb](http://comorichweb.posterous.com/) on [RabbitMQ](http://rabbitmq.com) and
 one question from an attendee was "Is it possible to publish a message
 to be consumed at a later date?" I answered that it wasn't possible to
 the best of my knowledge, but that there might be some hack to
